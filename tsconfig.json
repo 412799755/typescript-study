@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "es2015",
+      "dom"
+    ]
+  },
+  /*如果遇到error TS2451
+  方法一：
+  将运行环境由 DOM typings 更改成其他运行环境。
+  我们可以在 tsconfig.json 中做一下声明：
+  方法二：
+  既然与全局的变量出现重名，那我们将脚本封装到模块（module）内。module 有自己的作用域，
+  自然不会与全局作用域的变量产生冲突。
+  在 Typescript 中，只要文件存在 import 或 export 关键字，都被视为 module
+  */
+  "include": [
+    "basicType/*.ts"
+  ]
+}
