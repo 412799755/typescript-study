@@ -21,3 +21,13 @@ function buildName(firstName: string, lastName?: string) {
     else
         return firstName;
 }
+// 有默认初始化值的参数
+function buildName1(firstName: string, lastName = "Smith"){
+    return firstName + " " + lastName;
+}
+//剩余参数
+function buildName2(firstName: string, ...restOfName: string[]) {
+    return firstName + " " + restOfName.join(" ");
+}
+
+let employeeName = buildName2("Joseph", "Samuel", "Lucas", "MacKinzie");

@@ -1,9 +1,11 @@
 {
   "compilerOptions": {
-    "lib": [
-      "es2015",
-      "dom"
-    ]
+/*    指定ECMAScript目标版本 "ES3"（默认）， "ES5"， "ES6"/ "ES2015"， "ES2016"， "ES2017"或 "ESNext"。
+    typescript会根据target自动引入lib
+    注意：如果--lib没有指定默认注入的库的列表。默认注入的库为：
+    ► 针对于--target ES5：DOM，ES5，ScriptHost
+    ► 针对于--target ES6：DOM，ES6，DOM.Iterable，ScriptHost*/
+    "target": "ES5"
   },
   /*如果遇到error TS2451
   方法一：

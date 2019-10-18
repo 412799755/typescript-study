@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 create({ prop: 0 }); // OK
 create(null); // OK
 create(42); // Error
