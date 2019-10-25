@@ -18,6 +18,7 @@
   */
   "include": [
 //    "basicType/*.ts",
-    "function/*.ts"
+//    "function/*.ts",
+    "generics/*.ts"
   ]
 }
