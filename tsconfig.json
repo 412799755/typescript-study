@@ -19,6 +19,6 @@
   "include": [
 //    "basicType/*.ts",
 //    "function/*.ts",
-    "generics/*.ts"
+    "typeInference/*.ts"
   ]
 }
